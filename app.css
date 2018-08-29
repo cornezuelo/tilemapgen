@@ -1,0 +1,27 @@
+#grid {
+	border-collapse: collapse;
+	table-layout: fixed;
+	margin: 0 auto;
+	
+}
+
+#grid, .grid-row, .grid-col {
+	border: 1px solid #075200;
+	text-align: center;
+}
+
+.grid-col {
+	width: 20px;
+	height: 20px;
+	vertical-align: top;
+}
+
+.land-grass {
+	background-color: green;
+	color: #A1D490;
+}
+
+.land-road {
+	background-color: #7A462C;
+	color: #E38E64;
+}
